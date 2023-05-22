@@ -22,7 +22,7 @@ export class StuRebCardComponent implements OnInit {
   // @Input() public isApproved: boolean = false;
   @Input() public approval_state: string = "pending";
   @Output() public updateList = new EventEmitter();
-  constructor(private data_service:StudentdataService, private auth_service:AuthService, private router: Router) { }
+  constructor(private data_service:StudentdataService, private auth_service:AuthService, private router: Router, public auth:AuthService) { }
 
   ngOnInit(): void {
     // this.dummyInitialise();
