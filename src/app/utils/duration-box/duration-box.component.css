@@ -1,0 +1,93 @@
+
+.main-container{
+    height:100%;
+    padding: 5rem 3rem;
+}
+.page-title{
+    font-size: 2.5rem;
+}
+#form-instructions{
+    font-size: 1rem; 
+    color: gray;
+    font-weight: 200;
+    /* padding-top: 10px !important; */
+    margin-top: 12px  !important;
+}
+
+#form-container{
+    color: #ffc42b;
+}
+
+#rebate-reason-container{
+    font-size: large;
+    padding-top: 10px;
+}
+
+.official-container{
+    font-size:15px;
+    height: 32px;
+    line-height: 32px;
+    background-color: green;
+}
+
+.inline-input {
+    display: inline-block;
+    margin-right: 100px; 
+  }
+  
+/* #parent-container{
+.in  
+} */
+/* #date-container{
+    display: grid;
+    gap: 1em;
+    grid-auto-rows: minmax(60px, auto);
+    grid-template-columns: repeat(6, .6fr) 1.5fr;
+    width:50%;
+}
+#from-date-container{
+    display:flex;
+    justify-content: left;
+    grid-row: 1;
+    grid-column: 1/2;
+}
+#to-date-container{
+    display: flex;
+    justify-content: right;
+  margin-right: 20px;
+  grid-row: 1;
+  grid-column: 2/3;
+  
+} */
+
+#is-official-rebate{
+ 
+    padding-top: 10px;
+    font-size: large;
+}
+
+#file-for-official{
+    grid-row: 3;
+    grid-column: 2/3;
+}
+
+#current-file{
+    grid-row: 4;
+    grid-column: 1/3;
+}
+
+#confirm-btn{
+    /* color: #ffc42b; */
+    
+    background-color: #ffc659;
+    border-color: #ffc659;
+    border-radius: 120rem;
+    
+    padding-right: 24px;
+    padding-left: 24px;
+
+    height: max-content;
+    margin: 24px 0px;
+
+    font-weight: bold;
+}

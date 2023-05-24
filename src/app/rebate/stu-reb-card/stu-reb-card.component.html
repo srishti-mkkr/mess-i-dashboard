@@ -73,4 +73,17 @@
       Cancel your rebate
     </button>
   </div>
+  <div
+    id="rebate-accepted-container"
+    *ngIf="approval_state == 'accepted'"
+    style="display: flex"
+  >
+    <button
+      class="btn btn-light rebate-action-btn"
+      (click)="updateAcceptedRebate(p_rebate_start, p_rebate_end)"
+      *ngIf="auth.isStudent()"
+    >
+      Shrink Duration
+    </button>
+  </div>
 </div>
